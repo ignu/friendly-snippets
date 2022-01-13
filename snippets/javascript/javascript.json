@@ -427,6 +427,14 @@
     "prefix": "gfn",
     "body": "function* ${1:name}(${2:arguments}) {\n\t${0}\n}"
   },
+  "console debugin2": {
+    "prefix": "pp",
+    "body": ["console.log('🌈🦄${1:value}', ${1:value});", "$0"]
+  },
+  "console debugin": {
+    "prefix": "pp",
+    "body": ["console.log('🚀🔥${1:value}', ${1:value});", "$0"]
+  },
   "console.log": {
     "prefix": "cl",
     "body": "console.log(${0})"
