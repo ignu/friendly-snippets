@@ -134,6 +134,11 @@
     "body": ["for (const ${1:iterator} of ${2:object}) {", "\t$0", "}"],
     "description": "For-Of Loop"
   },
+  "Anonymous Function": {
+    "prefix": "arw",
+    "body": ["(${1:params}) => { return (${2:body})i } ],
+    "description": "Anon Func"
+  },
   "Function Statement": {
     "prefix": "function",
     "body": ["function ${1:name}(${2:params}:${3:type}) {", "\t$0", "}"],
